@@ -5,4 +5,4 @@ answer = 1
 for x in range(convertedNum):
     x = x + 1
     answer = answer * x
-print(answer)
+print('{}! = {}'.format(convertedNum, answer))
