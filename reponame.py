@@ -1,8 +1,12 @@
+def factorial(enteredNum):
+    answer = 1
+    for x in range(convertedNum):
+        x = x + 1
+        answer = answer * x
+    return answer
+
+
 print("Testing a repository using HTTP URL. Let us calculate factorials.")
-factNum = input("Please Enter a number: ")
-convertedNum = int(factNum)
-answer = 1
-for x in range(convertedNum):
-    x = x + 1
-    answer = answer * x
-print('{}! = {}'.format(convertedNum, answer))
+inputNum = input("Please Enter a number: ")
+convertedNum = int(inputNum)
+print('{}! = {}'.format(convertedNum, factorial(convertedNum)))
